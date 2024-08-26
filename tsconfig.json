@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    // "strict": true,
+    // "alwaysStrict": true,
+    // "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
+    // "noImplicitAny": true,
+    // "noImplicitThis": true,
+    // "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "useUnknownInCatchVariables": false,
+    "strict": false, // 关闭所有严格类型检查选项
+    "noImplicitAny": false, // 允许隐式 any 类型
+    "strictNullChecks": false, // 关闭严格的 null 和 undefined 检查
+    "strictFunctionTypes": false, // 关闭函数参数的严格检查
+    "strictPropertyInitialization": false, // 关闭类属性的严格初始化检查
+    "noImplicitThis": false, // 允许 `this` 的隐式 `any` 类型
+    "alwaysStrict": false, // 关闭严格模式的默认启用
+    "noImplicitReturns": false, // 允许函数没有返回值
+    // "noImplicitImports": false, // 允许隐式导入
+    // "noImplicitExports": false ,// 允许隐式导出
+    "types": [
+      "react-spring",
+      "jest"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "cypress"
+  ],
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ]
+}
